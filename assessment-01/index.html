@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assessment 1</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="scripts/scripts.js"></script>
+</head>
+
+<body>
+
+    
+    <h1>Assessment 1</h1>
+
+        <div class="buttons">
+            <button type="button" onclick='document.getElementById("startp").innerHTML = "This paragraph was changed by the button above"'>Change paragraph below</button>
+            <button type="button" onclick="changestartbutton()">Change paragraph below (external)</button>
+        </div>
+
+    <p id="startp">Help I'm being replaced!</p>
+
+    <script>
+    changestartp()
+    </script>
+
+        <div class="buttons">
+            <button type="button" onclick='document.getElementById("myimage1").src="images/image2.png"'>Me in 2012</button>
+            <button type="button" onclick='document.getElementById("myimage1").src="images/image1.jpg"'>Me in 2022</button>
+            <button type="button" onclick='document.getElementById("myimage1").src="images/image3.jpg"'>Me in 2024</button>
+        </div>
+        <div class="buttons">
+            <button type="button" onclick='document.getElementById("myimage1").style.width=  "30%"'>Make image bigger</button>
+            <button type="button" onclick='document.getElementById("myimage1").style.width=  "20%"'>Reset image size</button>
+        </div>
+        <img src="images/image1.jpg" alt="A picture of me" id="myimage1" class="center">
+
+        <div class="buttons">
+            <button type="button" onclick='document.getElementById("myimage1").style.display = "block"'>show</button>
+            <button type="button" onclick='document.getElementById("myimage1").style.display = "none"'>hide</button>
+        </div>
+
+
+</body>
+</html>

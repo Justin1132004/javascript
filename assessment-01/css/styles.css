@@ -1,0 +1,54 @@
+:root {
+    --primary: #009688;
+    --primary-light: #B2DFDB;
+    --primary-dark: #00796B;
+    --text-light: #ffffff;
+    --text-dark: #000000;
+}
+
+body {
+    background-color: var(--primary-light);
+    font-family: arial, helvetica, sans-serif;
+    font-size: 30px;
+    color: var(--text-dark);
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    padding:20px;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+}
+
+img {
+    margin:20px;
+    width:20%;
+}
+
+.center {
+    clear: both;
+    display: block;
+    margin: 10px auto;
+}
+
+.buttons {
+    width: 30%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+button {
+    color: var(--text-light);
+    border: 2px solid var(--primary-dark);
+    background: var(--primary-dark);
+    text-decoration: none;
+}
+
+button:hover {
+    color: var(--text-dark);
+    background: var(--primary-light);
+}
